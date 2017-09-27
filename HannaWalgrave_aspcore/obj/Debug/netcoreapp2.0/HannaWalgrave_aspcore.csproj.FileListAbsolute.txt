@@ -1,0 +1,11 @@
+E:\School\jaar_3\aspnet\repos\HannaWalgrave_aspcore\HannaWalgrave_aspcore\bin\Debug\netcoreapp2.0\HannaWalgrave_aspcore.deps.json
+E:\School\jaar_3\aspnet\repos\HannaWalgrave_aspcore\HannaWalgrave_aspcore\bin\Debug\netcoreapp2.0\HannaWalgrave_aspcore.runtimeconfig.json
+E:\School\jaar_3\aspnet\repos\HannaWalgrave_aspcore\HannaWalgrave_aspcore\bin\Debug\netcoreapp2.0\HannaWalgrave_aspcore.runtimeconfig.dev.json
+E:\School\jaar_3\aspnet\repos\HannaWalgrave_aspcore\HannaWalgrave_aspcore\bin\Debug\netcoreapp2.0\HannaWalgrave_aspcore.dll
+E:\School\jaar_3\aspnet\repos\HannaWalgrave_aspcore\HannaWalgrave_aspcore\bin\Debug\netcoreapp2.0\HannaWalgrave_aspcore.pdb
+E:\School\jaar_3\aspnet\repos\HannaWalgrave_aspcore\HannaWalgrave_aspcore\obj\Debug\netcoreapp2.0\HannaWalgrave_aspcore.csprojResolveAssemblyReference.cache
+E:\School\jaar_3\aspnet\repos\HannaWalgrave_aspcore\HannaWalgrave_aspcore\obj\Debug\netcoreapp2.0\HannaWalgrave_aspcore.csproj.CoreCompileInputs.cache
+E:\School\jaar_3\aspnet\repos\HannaWalgrave_aspcore\HannaWalgrave_aspcore\obj\Debug\netcoreapp2.0\HannaWalgrave_aspcore.AssemblyInfoInputs.cache
+E:\School\jaar_3\aspnet\repos\HannaWalgrave_aspcore\HannaWalgrave_aspcore\obj\Debug\netcoreapp2.0\HannaWalgrave_aspcore.AssemblyInfo.cs
+E:\School\jaar_3\aspnet\repos\HannaWalgrave_aspcore\HannaWalgrave_aspcore\obj\Debug\netcoreapp2.0\HannaWalgrave_aspcore.dll
+E:\School\jaar_3\aspnet\repos\HannaWalgrave_aspcore\HannaWalgrave_aspcore\obj\Debug\netcoreapp2.0\HannaWalgrave_aspcore.pdb
