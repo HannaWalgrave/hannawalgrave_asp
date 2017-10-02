@@ -14,7 +14,7 @@ namespace HannaWalgrave_aspcore.Controllers
 
         public IActionResult Index()
         {
-            var model = new BookListViewModel();
+            /*var model = new BookListViewModel();
             BookDetailModel book = new BookDetailModel();
             book.Title = "poging";
             book.Author = "chtulhu";
@@ -23,7 +23,9 @@ namespace HannaWalgrave_aspcore.Controllers
             model.Books = new List<BookDetailModel>();
             model.Books.Add(book);
             model.Books.Add(book);
-            model.Books.Add(book);
+            model.Books.Add(book);*/
+
+            var model = new BookListViewModel();
             return View( model);
         }
 
@@ -31,11 +33,14 @@ namespace HannaWalgrave_aspcore.Controllers
         
         public IActionResult Detail([FromRoute]int id)
         {
+            var model = new BookListViewModel().Books[id];
+            
+
             if (id == 0)
             {
                 return new NotFoundResult();
             }
-            return View();
+            return View(model);
         }
     }
 }
