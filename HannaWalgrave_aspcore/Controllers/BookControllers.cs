@@ -34,12 +34,6 @@ namespace HannaWalgrave_aspcore.Controllers
         public IActionResult Detail([FromRoute]int id)
         {
             var model = new BookListViewModel().Books[id];
-            
-
-            if (id == 0)
-            {
-                return new NotFoundResult();
-            }
             return View(model);
         }
     }

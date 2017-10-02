@@ -4,17 +4,12 @@
         ViewData["Title"] = "Overzicht Boeken";
     }
 
-<div class="row">
-    <div class="col-md-12">
-        <ul>
-            @foreach(var book in Model.Books)
+            @foreach(KeyValuePair<int, BookDetailModel> entry in Model.Books)
             {
-                <li>@book.Title</li>
-                <li>@book.Author</li>
-                <li>@book.ISBN</li>
-                <li>@book.CreatedOn</li>
+                <tr>
+                    <td><a href="books/@entry.Key">@entry.Value.Author</a></td>
+                    <td><a href="books/@entry.Key">@entry.Value.ISBN</a></td>
+                    <td><a href="books/@entry.Key">@entry.Value.Title</a></td>
+                </tr>
             
             }
-        </ul>
-    </div>
-</div>

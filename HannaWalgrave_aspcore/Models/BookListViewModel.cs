@@ -7,7 +7,12 @@ namespace HannaWalgrave_aspcore.Models
 {
     public class BookListViewModel
     {
-        public List<BookDetailModel> Books { get; set; }
+        public Dictionary<int, BookDetailModel> Books = new Dictionary<int, BookDetailModel>()
+        {
+            {1, new BookDetailModel {Author = "Cthulhu", ISBN = "ph’nglui" , Title = "in his house at R’lyeh sleeping Cthulhu waits dreaming"} },
+            {2, new BookDetailModel{Author = "Sandworm", ISBN = "Arrakis" , Title = "Shai-Hulud"} },
+            {3, new BookDetailModel{Author = "Godzilla", ISBN = "Gojira" , Title = "Ishiro Honda"} },
+        };
         
     }
 }
