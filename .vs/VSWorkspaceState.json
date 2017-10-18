@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\HannaWalgrave_aspcore",
+    "\\HannaWalgrave_aspcore\\Controllers",
+    "\\HannaWalgrave_aspcore\\Models",
+    "\\HannaWalgrave_aspcore\\Views",
+    "\\HannaWalgrave_aspcore\\Views\\Book"
   ],
-  "SelectedNode": "\\HannaWalgrave_aspcore.sln",
+  "SelectedNode": "\\HannaWalgrave_aspcore\\Views\\Book\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
